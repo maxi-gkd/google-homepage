@@ -15,7 +15,6 @@
 }
 
 html {
-  /* footer support */
   position: relative;
   min-height: 100%;
 }
@@ -23,7 +22,6 @@ html {
 body {
   font-family: arial, sans-serif;
   line-height: 1.6;
-  /* footer support */
   margin-bottom: 100px;
 }
 
@@ -48,8 +46,6 @@ input {
 button {
   cursor: pointer;
 }
-
-/* NAV */
 
 .nav {
   display: flex;
@@ -108,8 +104,6 @@ button {
   border-radius: 50%;
 }
 
-/* Currently using user icon */
-
 .button-sign-in {
   padding: 7px 10px;
   border-radius: 3px;
@@ -123,8 +117,6 @@ button {
 .button-sign-in:focus {
   opacity: 1;
 }
-
-/* MAIN */
 
 .main {
   display: flex;
@@ -201,8 +193,6 @@ button {
   border-color: blue;
 }
 
-/* FOOTER */
-
 .footer {
   position: absolute;
   bottom: 0;
@@ -235,8 +225,6 @@ button {
 .footer-link:hover {
   text-decoration: underline;
 }
-
-/* Media queries */
 
 @media (max-width: 660px) {
   .searchbar {
